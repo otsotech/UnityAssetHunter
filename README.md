@@ -21,8 +21,8 @@ To use **Unity Asset Hunter**, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/unity-asset-finder.git
-    cd unity-asset-finder
+    git clone https://github.com/otsotech/UnityAssetHunter.git
+    cd UnityAssetHunter
     ```
 
 2. **Install the Required Dependencies**:
