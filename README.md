@@ -34,7 +34,7 @@ To use **Unity Asset Hunter**, follow these steps:
 
 1. Run the tool with Python:
     ```bash
-    python unity_asset_finder.py
+    python main.py
     ```
 
 2. Follow the on-screen prompts to enter the Unity asset URL.
