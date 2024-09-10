@@ -1,23 +1,37 @@
-# Unity Asset Hunter
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/logo_white.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/logo.png">
+  <img src=".github/logo.png" height="150"/>
+</picture>
+</p>
 
-Unity Asset Hunter is a Python tool designed for Unity asset developers to identify if their assets are being publicly shared on various platforms, such as GitHub. This can happen inadvertently when a game developer purchases an asset and uses it in a game that is later uploaded to a public repository. The tool aims to prevent piracy and unauthorized distribution of assets, ensuring that developers' hard work is protected. **Unity Asset Hunter** is intended for ethical use only and is not to be used for any malicious purposes.
+<h3 align="center">Protect Your Unity Assets with Unity Asset Hunter!</h3>
 
-## Features
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repo stars](https://img.shields.io/github/stars/otsotech/UnityAssetHunter?style=flat&logo=github&color=f5f5f5)](https://github.com/otsotech/UnityAssetHunter)
 
-- **Automated Asset Search**: Enter the URL of a Unity asset, and the tool will scrape the content page for every script file included in the package.
-- **GitHub Integration**: Uses the GitHub API to search repositories for potential matches of the assets.
-- **Results Sorting**: Reorders search results by the date of the last update, helping developers identify the most recent and potentially unauthorized uses.
+Unity Asset Hunter is a Python tool designed for Unity asset developers to identify if their assets are being publicly shared on various platforms, such as GitHub. This tool helps prevent piracy and unauthorized distribution of assets, ensuring that developers' hard work is protected.
 
-## How It Works
+## At a Glance
+- 🚀 **Automated Asset Search**: Quickly scans Unity asset URLs and retrieves all script files included in the package.
+- 🌐 **GitHub Integration**: Utilizes the GitHub API to search repositories for potential matches of the assets.
+- 📊 **Results Sorting**: Lists search results by the date of the last update, highlighting the most recent and potentially unauthorized uses.
+- 🔐 **Secure and Ethical**: Intended for ethical use only to protect intellectual property.
 
-1. **Enter the Unity Asset URL**: Provide the URL of the Unity asset you wish to check.
-2. **Web Scraping**: The tool will web scrape the Unity package content page to gather a list of script files included in the asset.
-3. **GitHub Search**: Utilizes the GitHub API to search for repositories containing files that match the scraped script files.
-4. **Results Analysis**: Matches are listed and sorted by their last update date, allowing for a quick review of potentially unauthorized distributions.
+## How to Help
+- [⭐ Star](https://github.com/otsotech/UnityAssetHunter) the repo, leave a [review](#), and spread the word about the project!
+- [Contribute](CONTRIBUTING.md) by submitting feature requests, bugs, or even your own PR.
+- [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/otsotech) this project to support further development.
 
-## Installation
+## Why Use Unity Asset Hunter?
 
-To use **Unity Asset Hunter**, follow these steps:
+For asset developers, it's crucial to protect their intellectual property from unauthorized distribution. Sometimes, developers who purchase assets may inadvertently include them in public repositories, not fully realizing this constitutes a breach of license terms. This often happens without malicious intent — a simple oversight by developers who do not fully consider the implications.
+
+**Unity Asset Hunter** is designed to help asset creators monitor and detect where their assets are being publicly shared, even when done unintentionally. By providing a way to identify these instances quickly, the tool enables asset developers to take appropriate action, ensuring that their hard work remains protected and used according to its intended license.
+
+## Setup
+To get started with **Unity Asset Hunter**:
 
 1. **Clone the Repository**:
     ```bash
@@ -31,35 +45,21 @@ To use **Unity Asset Hunter**, follow these steps:
     ```
 
 ## Usage
-
-1. Run the tool with Python:
-    ```bash
-    python main.py
-    ```
-
-2. Follow the on-screen prompts to enter the Unity asset URL.
+Run the tool with Python:
+```bash
+python main.py
+```
+Follow the on-screen prompts to enter the Unity asset URL.
 
 ## Requirements
-
 - Python 3.7 or higher
 - GitHub API token (for searching public repositories)
 
 ## Contributing
-
 Contributions are welcome! Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
-
-**Unity Asset Hunter** is designed for ethical use only. The tool should only be used to prevent piracy and unauthorized distribution of assets. The developers are not responsible for any misuse of this tool.
-
-## Contact
-
-For any inquiries or issues, please open an [issue](https://github.com/otsotech/UnityAssetHunter/issues) or contact the repository owner.
-
----
-
-*Unity Asset Hunter* - Protecting Your Creative Work.
+**Unity Asset Hunter** is designed for ethical use only. The tool should only be used to prevent piracy and unauthorized distribution of assets. The developers are not responsible for any
