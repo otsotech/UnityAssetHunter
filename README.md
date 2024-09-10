@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/logo_white.png">
   <source media="(prefers-color-scheme: light)" srcset=".github/logo.png">
-  <img src=".github/logo.png" height="150"/>
+  <img src=".github/logo_white.png" height="150"/>
 </picture>
 </p>
 
