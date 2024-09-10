@@ -11,7 +11,7 @@ def read_priority_keywords(file_path):
         keywords = [line.strip() for line in file.readlines()]
     return keywords
 
-def scrape_cs_scripts(progress_bar, url='https://assetstore.unity.com/packages/tools/animation/legs-animator-154245#content', driver_path='/usr/local/bin/geckodriver', priority_keywords_file='priority_keywords.txt'):
+def scrape_cs_scripts(progress_bar, url='https://assetstore.unity.com/packages/tools/audio/simple-music-maker-240781#content', driver_path='/usr/local/bin/geckodriver', priority_keywords_file='priority_keywords.txt'):
     # Set up the Firefox options to run in headless mode (without GUI)
     options = Options()
     options.add_argument("--headless")
